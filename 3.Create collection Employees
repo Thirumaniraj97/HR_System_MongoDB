@@ -1,0 +1,23 @@
+db.Employees.insertOne(
+{
+    "_id" : ObjectId("5e9c02b5b00f5115433e62ff"),
+    "emp_name" : "Rajdinesh",
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "DOB" : "14-04-1990",
+    "gender" : "Male",
+    "email" : "rajdinesh@gmail.com",
+    "phone_number" : "9984548494"
+}
+)
+
+db.Employees.insertOne(
+{
+    "_id" : ObjectId("5e9c0eecb00f5115433f91b3"),
+    "emp_name" : "Thirumani",
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "DOB" : "19-04-1997",
+    "gender" : "Male",
+    "email" : "thirumani@gmail.com",
+    "phone_number" : "9878732251"
+}
+)
