@@ -1,0 +1,47 @@
+db.Monthly_Salary.insertOne(
+{
+    "_id" : ObjectId("5e9c3dcfb00f511543447fd1"),
+    "emp_id" : ObjectId("5e9c02b5b00f5115433e62ff"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "month_year" : "Feb-2020",
+    "salary_date" : "28-02-2020",
+    "type_of_year" : "Financial Year",
+    "salary_per_month" : 83000
+}
+)
+
+db.Monthly_Salary.insertOne(
+{
+    "_id" : ObjectId("5e9c3e04b00f51154344855c"),
+    "emp_id" : ObjectId("5e9c02b5b00f5115433e62ff"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "month_year" : "Mar-2020",
+    "salary_date" : "31-03-2020",
+    "type_of_year" : "Financial Year",
+    "salary_per_month" : 83000
+}
+)
+
+db.Monthly_Salary.insertOne(
+{
+    "_id" : ObjectId("5e9c3e33b00f511543448a0c"),
+    "emp_id" : ObjectId("5e9c02b5b00f5115433e62ff"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "month_year" : "Apr-2020",
+    "salary_date" : "30-04-2020",
+    "type_of_year" : "Financial Year",
+    "salary_per_month" : 83000
+}
+)
+
+db.Monthly_Salary.insertOne(
+{
+    "_id" : ObjectId("5e9c3ebdb00f511543449731"),
+    "emp_id" : ObjectId("5e9c0eecb00f5115433f91b3"),
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "month_year" : "Apr-2020",
+    "salary_date" : "30-04-2020",
+    "type_of_year" : "Calendar Year",
+    "salary_per_month" : 50000
+}
+)
