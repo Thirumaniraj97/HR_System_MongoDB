@@ -1,0 +1,32 @@
+db.Salary_Master.insertOne(
+{
+    "_id" : ObjectId("5e9c2f6fb00f51154343155a"),
+    "emp_id" : ObjectId("5e9c02b5b00f5115433e62ff"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "year" : 2019,
+    "type_of_year" : "Financial Year",
+    "salary_per_year" : "1000000"
+}
+)
+
+db.Salary_Master.insertOne(
+{
+    "_id" : ObjectId("5e9c2fa9b00f511543431b54"),
+    "emp_id" : ObjectId("5e9c02b5b00f5115433e62ff"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "year" : 2020,
+    "type_of_year" : "Assessment Year",
+    "salary_per_year" : "1000000"
+}
+)
+
+db.Salary_Master.insertOne(
+{
+    "_id" : ObjectId("5e9c3013b00f5115434326fb"),
+    "emp_id" : ObjectId("5e9c0eecb00f5115433f91b3"),
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "year" : 2020,
+    "type_of_year" : "Assessment Year",
+    "salary_per_year" : "600000"
+}
+)
