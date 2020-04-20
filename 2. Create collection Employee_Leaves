@@ -1,0 +1,12 @@
+db.Employee_Leaves.insertOne(
+{
+    "_id" : ObjectId("5e9c2970b00f511543427761"),
+    "emp_id" : ObjectId("5e9c0eecb00f5115433f91b3"),
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "no_of_days" : 1,
+    "type_of_leave" : "Personal Leave",
+    "from_date" : "11-06-2020",
+    "to_date" : "11-06-2020",
+    "phone_number" : "9878732251"
+}
+)
