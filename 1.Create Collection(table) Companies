@@ -1,0 +1,19 @@
+db.createCollection("Companies");
+
+db.Companies.insertOne(
+{
+ "_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "company_name" : "Trimble",
+    "address" : "Chennai",
+    "PAN" : "BFTFH986N"
+}
+)
+db.Companies.insertOne(
+{
+    "_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "company_name" : "CTS",
+    "address" : "MEPZ",
+    "PAN" : "DXJKL0122K"
+}
+)
+
