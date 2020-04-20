@@ -1,0 +1,99 @@
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c3fdab00f51154344b2bd"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "holiday_description" : "New Year",
+    "date" : "01-01-2020",
+    "day" : "Wednesday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c4008b00f51154344b730"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "holiday_description" : "Pongal",
+    "date" : "15-01-2020",
+    "day" : "Wednesday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c4040b00f51154344bc94"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "holiday_description" : "Republic Day",
+    "date" : "26-01-2020",
+    "day" : "Sunday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c407cb00f51154344c21f"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "holiday_description" : "Good Friday",
+    "date" : "10-04-2020",
+    "day" : "Friday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c40a4b00f51154344c636"),
+    "company_id" : ObjectId("5e9c0119b00f5115433e3942"),
+    "holiday_description" : "Tamil New Year",
+    "date" : "14-04-2020",
+    "day" : "Tuesday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c41c2b00f51154344e2cf"),
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "holiday_description" : "New Year",
+    "date" : "01-01-2020",
+    "day" : "Wednesday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c41d3b00f51154344e52d"),
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "holiday_description" : "Pongal",
+    "date" : "15-01-2020",
+    "day" : "Wednesday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c422eb00f51154344ee3f"),
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "holiday_description" : "Republic Day",
+    "date" : "26-01-2020",
+    "day" : "Sunday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c423fb00f51154344efd3"),
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "holiday_description" : "Good Friday",
+    "date" : "10-04-2020",
+    "day" : "Friday"
+}
+)
+
+db.Holidays.insertOne(
+{
+    "_id" : ObjectId("5e9c4251b00f51154344f1c0"),
+    "company_id" : ObjectId("5e9c0bb4b00f5115433f4050"),
+    "holiday_description" : "Tamil New Year",
+    "date" : "14-04-2020",
+    "day" : "Tuesday"
+}
+)
