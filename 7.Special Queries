@@ -1,0 +1,49 @@
+select * from Companies
+Where company_name not in ('CTS');
+
+select * from Employees;
+
+
+select * from Employees where _id=ObjectId("5e9c0eecb00f5115433f91b3");
+
+select * from Monthly_Salary;
+select avg(salary_per_month) from Monthly_Salary;
+select max(salary_per_month) from Monthly_Salary;
+select min(salary_per_month) from Monthly_Salary;
+select sum(salary_per_month) from Monthly_Salary;
+
+
+
+select * from Holidays;
+select company_id,  count(holiday_description) from Holidays
+Group by company_id ;
+select company_id,  count(holiday_description) from Holidays
+Group by company_id 
+Having count(holiday_description)=4;
+select company_id, holiday_id, holiday_description,date,day from Holidays
+order by date asc;
+
+/* Unsupported Queries  */
+
+/*
+Nested SELECT statements are not supported:
+select * from Monthly_Salary where salary_per_month=
+(select max(salary_per_month) from Monthly_Salary);
+select * from Monthly_Salary where salary_per_month <>
+(select max(salary_per_month) from Monthly_Salary);
+
+upper/lower function is not supported:
+select upper(emp_name) from Employees; 
+
+SUBSTR function is not supported:
+select substr(emp_name,1,5) from Employees where emp_name='Thirumani'; 
+
+Update Query is not supported:         
+update Employees set DOB='1997-06-19' where id=ObjectId("5e9c0eecb00f5115433f91b3");   
+
+Other unsupported function:
+select curdate();
+select curtime();
+select now();                                                          
+
+ */
